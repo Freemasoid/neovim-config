@@ -4,10 +4,8 @@
 vim.cmd([[packadd packer.nvim]])
 
 return require("packer").startup(function(use)
-	branch =
-		"v3.x",
-		-- Packer can manage itself
-		use("wbthomason/packer.nvim")
+	-- Packer can manage itself
+	use("wbthomason/packer.nvim")
 
 	use({
 
